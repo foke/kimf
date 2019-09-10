@@ -14,7 +14,7 @@ ul {
 
 .site {
 	color: $gray;
-	transition: all 3s;
+	transition: all .3s;
   height: 100vh;
 	display: flex;
 	align-items: center;
@@ -72,4 +72,14 @@ ul {
 			}
 		}
 	}
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+
+  .greeting {
+    font-size: 5.2rem;
+  }
 }
